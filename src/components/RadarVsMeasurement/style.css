@@ -1,0 +1,62 @@
+
+h1{
+    margin-top:2rem;
+    font-size:1.3rem;
+    font-weight:normal;
+}
+
+.plot svg {
+    padding:1rem ;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.grid line {
+    stroke: #e6e6e6;
+    shape-rendering: crispEdges;
+}
+
+.grid path {
+    stroke-width: 0;
+}
+
+.line-rdr {
+    fill: orange;
+    stroke: orange;
+    stroke-width: 2px;
+    opacity: 0.5;
+}
+
+.line-msr {
+    fill: blue;
+    stroke: blue;
+    stroke-width: 2px;
+    opacity: 0.3;
+}
+
+.line-diff {
+    fill: none;
+    stroke: darkgrey;
+    stroke-width: 1px;
+}
+
+.legend {
+    fill: white;
+    stroke: darkgrey;
+}
+
+.legend-item {
+    fill: darkgrey;
+}
+
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+.focus {
+    font-size: 14px;
+}
+
+.focus circle {
+    fill: #000000;
+}
