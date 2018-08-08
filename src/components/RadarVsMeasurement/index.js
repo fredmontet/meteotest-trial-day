@@ -347,13 +347,13 @@ class RadarVsMeasurement extends Component {
 
         // ============ Legend Lines ============ //
 
-        let legend_text = ["Radar", "Measurement"];
+        let legend_text = ["Radar (mm/h)", "Measurement (mm/h)"];
         let legend_color = ["orange","blue"];
         let legend_opacity = ["0.5","0.3"];
 
         // set the dimensions and margins of the legend
         let margin_legend = {top: 10, right: 10, bottom: 10, left: 10},
-            width_legend = 140 - margin_legend.left - margin_legend.right,
+            width_legend = 170 - margin_legend.left - margin_legend.right,
             height_legend = 75 - margin_legend.top - margin_legend.bottom;
 
         let legend = svg_lines.append("g")
