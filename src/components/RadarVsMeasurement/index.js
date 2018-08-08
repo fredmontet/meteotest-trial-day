@@ -31,10 +31,6 @@ class RadarVsMeasurement extends Component {
      * from multiple webservices and aggregate
      * them in an array
      *
-     * @params dataProcessing is a function that
-     * knows how to process the fetched data to
-     * clean it
-     *
      * @params ...queries are the queries that are
      * meant to be fetched on the webservices
      *
