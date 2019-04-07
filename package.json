@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "create-react-app": "^2.1.8",
     "d3": "^5.5.0",
     "plotly.js": "^1.39.4",
     "prop-types": "^15.6.2",
