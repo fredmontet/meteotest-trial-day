@@ -12,5 +12,5 @@ The task has been completed in a React environment created with the help of crea
 
 Here's a screeshot of the result:
 
-![Plot screenshot](/screenshot.png)
+![Plot screenshot](./screenshot.png)
 
